@@ -1,0 +1,14 @@
+.container{
+    width: 800px;
+    background-color: #fff;
+    min-height: 80dvh;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2rem;
+}

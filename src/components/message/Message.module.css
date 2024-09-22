@@ -1,0 +1,38 @@
+.card{
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+     border-radius: 0.5rem;
+}
+.avatarCard{
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #222;
+}
+.avatar{
+    width: 48px;
+    height: 48px;
+}
+
+.messageCard{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.messageParagraph{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.notRead{
+    background-color: #eee;
+}
+
+.messageAlarm{
+    background-color: orangered;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}

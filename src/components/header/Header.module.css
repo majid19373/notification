@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    gap: 1rem;
+}
+
+.count{
+    background-color: blue;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    color: #fff;
+}
